@@ -1,0 +1,30 @@
+.form h2{
+    text-align: center;
+}
+
+.form-row {
+margin-bottom: 10px;
+display:flex;
+width:50%;
+}
+
+.form-row .form-group:last-child {
+    /*  display: inline-block;  */
+    margin-right: 20px;
+}
+.form-group label {
+    display: black;
+    font-size: 14 px;
+    color: #86899f;
+}
+
+.form-group input, .form-group textarea {
+    width:100%;
+    box-sizing: border-box;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color:blue;
+    outline:none;
+    font-family: inherit;
+}
